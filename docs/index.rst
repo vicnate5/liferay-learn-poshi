@@ -1,8 +1,8 @@
-===============
-Poshi Tutorial
-===============
+======================
+Liferay - Learn Poshi
+======================
 
-Welcome to Poshi Tutorial! Thank you for your interest in learning Poshi.
+Welcome to Liferay - Learn Poshi!
 
 Need immediate help?
   * Reach someone on the `LRQA Slack channel`_;
