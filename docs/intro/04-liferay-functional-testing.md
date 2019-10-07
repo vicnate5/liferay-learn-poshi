@@ -1,2 +1,0 @@
-Liferay Functional Testing
-===========================
