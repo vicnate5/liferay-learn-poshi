@@ -17,6 +17,7 @@ Welcome to Liferay's Poshi training course. What is Poshi? And why do we use it 
 .. _Github Repo: https://github.com/liferay/liferay-qa-ee/tree/liferay-qa-docs
 
 .. toctree::
+  :maxdepth: 1
   :caption: Introduction
   :name: sec-intro
 
@@ -26,6 +27,7 @@ Welcome to Liferay's Poshi training course. What is Poshi? And why do we use it 
   intro/liferay-functional-testing
 
 .. toctree::
+  :maxdepth: 1
   :caption: Anatomy of a Poshi Test
   :name: sec-anatomy
 
@@ -37,6 +39,7 @@ Welcome to Liferay's Poshi training course. What is Poshi? And why do we use it 
   anatomy/methods
 
 .. toctree::
+  :maxdepth: 1
   :caption: Writing a Test cases
   :name: sec-writing
 
@@ -45,6 +48,7 @@ Welcome to Liferay's Poshi training course. What is Poshi? And why do we use it 
   writing/building-a-test-file
 
 .. toctree::
+  :maxdepth: 1
   :caption: Debugging
   :name: sec-debugging
 
@@ -54,6 +58,7 @@ Welcome to Liferay's Poshi training course. What is Poshi? And why do we use it 
   debugging/verifying-with-ci
 
 .. toctree::
+  :maxdepth: 1
   :caption: Flow Control and CI
   :name: sec-flowcontrol
 
