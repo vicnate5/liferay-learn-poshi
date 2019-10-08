@@ -1,2 +1,2 @@
-Testing a Web-based Platform
+Liferay Functional Testing
 =============================

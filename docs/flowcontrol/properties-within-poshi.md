@@ -1,2 +1,0 @@
-Properties within Poshi
-========================
