@@ -40,7 +40,7 @@ Welcome to Liferay's Poshi training course. What is Poshi? And why do we use it 
 
 .. toctree::
   :maxdepth: 1
-  :caption: Writing a Testcase
+  :caption: Writing a Test cases
   :name: sec-writing
 
   writing/prerequisites
