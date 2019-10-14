@@ -1,2 +1,0 @@
-Poshi Script -> WebDriver Methods
-==================================

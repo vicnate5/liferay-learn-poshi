@@ -1,2 +1,0 @@
-WebDriver Methods -> Poshi Functions
-=====================================

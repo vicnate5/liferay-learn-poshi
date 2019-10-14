@@ -33,8 +33,8 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
   :caption: Anatomy of a Poshi Test
   :name: sec-anatomy
 
-  anatomy/poshi-script-webdriver-methods
-  anatomy/webdriver-methods-poshi-functions
+  anatomy/webdriverimpl
+  anatomy/functions
   anatomy/paths
   anatomy/macros
   anatomy/testcases
