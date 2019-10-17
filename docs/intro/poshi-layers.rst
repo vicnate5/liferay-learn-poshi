@@ -1,6 +1,8 @@
 Poshi Layers
 =============
 
+|image0|
+
 LiferaySelenium/WebDriverImpl (.java)
 --------------------------------------
 The first and lowest Poshi layer is where WebDriver is implemented in Java. The base class `BaseWebDriverImpl`_ implements both `WebDriver`_ and our own custom interface of selenium methods called `LiferaySelenium`_. Many of the custom methods give the Liferay tester additional functionality, such as ``waitForConsoleTextPresent``, which allows us to check for output in the application server log during test runtime.
@@ -83,9 +85,6 @@ The example BlogsEntry macro might be used in a test case like this:
 This example shows part of a test case where the user is navigating to a page, navigating to a specific blog entry, and then flagging the entry for "Spam".
 
 Test case files also define setup steps, teardown steps, properties,  individual test priorities (see example), and more. Generally a test case file will be organized around a component or component group and often contain multiple test cases. See `example test case for the Calendar component`_.
-
-The following image illustrates how the different layers reference each another:
-|image0|
 
 .. |image0| image:: ./img/poshi-layers.png
 
