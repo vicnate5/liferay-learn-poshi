@@ -21,7 +21,7 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
 .. toctree::
   :maxdepth: 1
   :caption: Introduction
-  :name: sec-intro
+  :name: intro
 
   intro/testing-a-web-based-platform
   intro/poshi-advantage
@@ -31,7 +31,7 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
 .. toctree::
   :maxdepth: 1
   :caption: Anatomy of a Poshi Test
-  :name: sec-anatomy
+  :name: anatomy-of-a-poshi-test
 
   anatomy/webdriverimpl
   anatomy/functions
@@ -41,8 +41,8 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
 
 .. toctree::
   :maxdepth: 1
-  :caption: Writing a Test cases
-  :name: sec-writing
+  :caption: Writing a Test case
+  :name: writing-a-test-case
 
   writing/prerequisites
   writing/writing-a-test-case
@@ -51,7 +51,7 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
 .. toctree::
   :maxdepth: 1
   :caption: Debugging
-  :name: sec-debugging
+  :name: debugging-poshi
 
   debugging/workflow
   debugging/reasons-for-failure
@@ -61,7 +61,7 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
 .. toctree::
   :maxdepth: 1
   :caption: Test Setup and CI
-  :name: sec-flowcontrol
+  :name: test-setup-and-ci
 
   testsetupci/properties-within-poshi
   testsetupci/test-setups
