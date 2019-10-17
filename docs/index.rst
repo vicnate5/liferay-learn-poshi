@@ -38,7 +38,6 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
   anatomy/paths
   anatomy/macros
   anatomy/testcases
-  anatomy/methods
 
 .. toctree::
   :maxdepth: 1
