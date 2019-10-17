@@ -25,8 +25,8 @@ First things first, we need to come up with a descriptive test suite name. Our t
   There may be patterns in which case we can use `globs`_ to generalize the expression(s).
   ``**/*TrashHandlerTest.java``
 
-  .. warning::
-      Be careful of over-generalizing! This might result in the test suite catching too many tests. Thankfully there’s also a way to exclude tests if this happens.
+.. warning::
+      Be careful of over-generalizing! This might result in the test suite catching too many tests. Thankfully there’s also a way to exclude tests if this happens. See below.
 
 `test.batch.class.names.excludes[testsuitename]`_
   Following the same principles as test.batch.class.names.includes, create a list of tests to exclude from the ones included with the test properties above. Then use globs to consolidate the expression(s).
