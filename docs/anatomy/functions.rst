@@ -10,7 +10,6 @@ In Poshi, a function handles any extra WebDriver commands that an element might 
 * Check for JavaScript or LiferayErrors
 
 Instead of calling all of those methods on a test, a function wraps it all up into a neat little package like in the toggleSwitch function below.
-
 ::
     function toggleSwitch{
       WaitForSPARefresh();
