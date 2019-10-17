@@ -60,9 +60,9 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
 
 .. toctree::
   :maxdepth: 1
-  :caption: Flow Control and CI
+  :caption: Test Setup and CI
   :name: sec-flowcontrol
 
-  flowcontrol/properties-within-poshi
-  flowcontrol/test-setups
-  flowcontrol/test-suites
+  testsetupci/properties-within-poshi
+  testsetupci/test-setups
+  testsetupci/test-suites
