@@ -84,10 +84,10 @@ Document Results
 Once the fix has been validated, store the results on the JIRA ticket you are working on. If you ran a test locally, upload the Poshi log file that ran green. If you tested against CI, include a link to those test results. This will help later test writers confirm that the test, at this point in time, was fixed.
 
 
-.. |image0| image:: ./img/workflow.png
-.. |image1| image:: ./img/stacktrace.png
-.. |image2| image:: ./img/indexhtml.png
-.. |image3| image:: ./img/summaryhtml.png
+.. |image0| image:: ./img/workflow.PNG
+.. |image1| image:: ./img/stacktrace.PNG
+.. |image2| image:: ./img/indexhtml.PNG
+.. |image3| image:: ./img/summaryhtml.PNG
 
 .. _`here`: https://github.com/liferay/liferay-portal/blob/fbf0974749b7db71504fca52a077d5c6c64242a6/modules/test/poshi-runner/poshi-script.markdown#debugging-syntax-errors
 .. _`ChroPath`: https://chrome.google.com/webstore/detail/chropath/ljngjbnaijcbncmcnjfhigebomdlkcjo?hl=en

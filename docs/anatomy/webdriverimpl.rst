@@ -8,7 +8,6 @@ BaseWebDriverImpl
 The `BaseWebDriverImpl`_ is an abstract base class that implements both LiferaySelenium and WebDriver as stated in the Introduction to Poshi section.
 
 In the example below, which is from an older version of BaseWebDriverImpl,  the assertElementPresent command checks if any web element can be found using the locator given by the user and throws an Exception causing the test to fail if it cannot be found. This implementation uses an innerClass to allow more flexibility on the conditional checks allowing Poshi to throw specialized exceptions that can be treated as Poshi warnings.
-
 ::
     @Override
     public void assertElementPresent(String locator) throws Exception{
