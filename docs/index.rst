@@ -64,5 +64,5 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
   :name: test-setup-and-ci
 
   testsetupci/properties-within-poshi
-  testsetupci/test-setups
+  testsetupci/ant-script-setup
   testsetupci/test-suites
