@@ -30,6 +30,7 @@ Instead of calling all of those methods on a test, a function wraps it all up in
     }
 
 Some things to note about functions:
+
 * All of the functions present in ``*.function`` are either implemented by ``*WebDriverImpl``, or is a function in a ``*.function`` file.
 * A method implemented by ``*WebDriverImpl`` can be invoked with the prefix selenium, followed by its method name.
 * A function from any ``*function`` file can be invoked with the function filename prefix following the function name. However, like in the example, no function name is required, the default will be used if it is not specified.
