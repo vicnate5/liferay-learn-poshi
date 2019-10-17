@@ -11,7 +11,8 @@ For UI test automation, Liferay has chosen to build a framework on top of Seleni
 
 Page Objects
 -------------
-Liferay has thousands of functional Poshi tests that must be maintained during product development and through many UI changes. In order to reduce test maintenance time/cost, Poshi uses the "`Page Object`_" design pattern. In this pattern, web elements (or "objects") on a page are defined separately from the tests logic itself. When UI or behavior changes happen, the test maintainer should not have to update many different test files to account for the change. Instead, a page object is defined in a single location, and all tests referencing that page objects can be automatically be updated without a large search/replace action.
+Liferay has thousands of functional Poshi tests that must be maintained during product development and through many UI changes. In order to reduce test maintenance time and cost, Poshi uses the "`Page Object`_" design pattern. In this pattern, web elements (or "objects") on a page are defined separately from the test’s logic itself. When UI or behavior changes happen, the test maintainer should not have to update many different test files to account for the change. Instead, a page object is defined in a single location, and all tests referencing that page object can automatically be updated without a large search and replace action.
+
 
 .. _`WebDriver`: https://www.seleniumhq.org/docs/03_webdriver.jsp
 .. _`Page Object`: https://www.softwaretestingmaterial.com/page-object-model/#Page-Object-Model-Design-Pattern

@@ -1,9 +1,9 @@
 Liferay Functional Testing
 =============================
 
-Test setup/execution (ant)
+Test Setup/Execution (ant)
 --------------------------
-Poshi tests are designed to simulate a real user's behavior, and must be executed against a full and running Portal server. In order to execute these tests, a framework must be in place to start and stop not only the Poshi executer (known as "Poshi Runner"), but also the Portal server. The scripts to handle test and server configuration are found in Apache Ant scripts in the Portal source root directory.
+Poshi tests are designed to simulate a real user's behavior, and must be executed against a fully running Portal server. In order to execute these tests, a framework must be in place to start and stop the Poshi executer (known as "Poshi Runner") and the Portal server. The scripts that  handles test and server configuration are found in `Apache Ant`_ scripts in the Portal source root directory.
 
 The easiest way to execute a poshi test on your local machine is to first start a Portal server (Poshi expects the server to be running at localhost:8080 by default), navigate to the Portal source root directory and execute a poshi test using:
 ``ant -f build-test.xml run-selenium-test -Dtest.class=PortalSmoke#Smoke``
@@ -24,6 +24,7 @@ Continuous Results (Testray/Spira)
 ----------------------------------
 As continuous testing is happening, we must be able to collect, parse, and read the test results in a way that helps to make sense of the data received from all the test runs. The current test management solution was developed in-house and is known as `Testray`_. Jenkins test results are sent to Testray where results and history can easily be viewed and analyzed. As of 2019, Liferay QA is in the process of moving test results to a new system that should provide us even more test results clarity and tracking called `SpiraTest`_. Please reach out to your trainer for more information on this.
 
+.. _`Apache Ant`: https://ant.apache.org/
 .. _`test.properties`: https://github.com/liferay/liferay-portal/blob/master/test.properties
 .. _`Jenkins`: https://jenkins.io/
 .. _`Testray`: https://testray.liferay.com/
