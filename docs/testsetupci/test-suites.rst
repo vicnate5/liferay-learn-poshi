@@ -17,10 +17,10 @@ First things first, we need to come up with a descriptive test suite name. Our t
 
 `test.batch.class.names.includes[testsuitename]`_
   * Next we’ll want to narrow down which backend tests run in each backend test batch. If we didn’t specify this test property, we would run tests from unrelated components. The easiest way to do this is to come up with a list of tests to include.
-  ::
-    modules/apps/bookmarks/bookmarks-test/src/testIntegration/java/com/liferay/bookmarks/trash/test/BookmarksFolderTrashHandlerTest.java
-    modules/apps/document-library/document-library-test/src/testIntegration/java/com/liferay/document/library/trash/test/DLFileEntryTrashHandlerTest.java
-    modules/apps/document-library/document-library-test/src/testIntegration/java/com/liferay/document/library/trash/test/DLFolderTrashHandlerTest.java
+    ::
+      modules/apps/bookmarks/bookmarks-test/src/testIntegration/java/com/liferay/bookmarks/trash/test/BookmarksFolderTrashHandlerTest.java
+      modules/apps/document-library/document-library-test/src/testIntegration/java/com/liferay/document/library/trash/test/DLFileEntryTrashHandlerTest.java
+      modules/apps/document-library/document-library-test/src/testIntegration/java/com/liferay/document/library/trash/test/DLFolderTrashHandlerTest.java
 
   There may be patterns in which case we can use `globs`_ to generalize the expression(s).
   ``**/*TrashHandlerTest.java``
