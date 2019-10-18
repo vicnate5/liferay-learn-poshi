@@ -21,7 +21,7 @@ definition {
   }
 }
 
-3. Let’s add a test that will add a Blog Entry. Let’s call it ``test AddBlogsEntry {}``
+3. Let’s add a test that will add a Blog Entry. Let’s call it ``test AddBlogsEntry {}``, replace or comment out the ``ViewHelloWorld`` test to prevent poshi validation errors since the test is missing child elements right now, we will return to this testcase later.
 4. Next, let's add macros to navigate to Blogs admin and to add a Blogs entry.
   a. Navigate to Blogs Admin
     .. note::
