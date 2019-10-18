@@ -1,6 +1,6 @@
 Writing a Test Case
 ====================
-**First**, create a file in ``portal-web\test\functional\com\liferay\portalweb\tests``, call it HelloPoshi.testcase.
+**First**, create a file in ``portal-web/test/functional/com/liferay/portalweb/tests``, call it HelloPoshi.testcase.
 
 .. note::
     InitCaps, where the first letter of each word is a capital letter, is an unenforced convention - the testcase and tests within the testcase file can technically be named just about anything with ASCII chars but it is best to keep a standard.
