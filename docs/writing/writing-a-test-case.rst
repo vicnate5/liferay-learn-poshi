@@ -7,7 +7,7 @@ Writing a Test Case
 
 **Next**, add the following elements that are required by poshi syntax validation. Start your test by opening the ``definition{}`` block. Within the definition{} block, add the following:
 
-1. ``property testray.main.component.name = "Blogs"`` - This property is required syntax for validation and will be covered in Flow Control and CI.
+1. ``property testray.main.component.name = "Blogs"`` - This property is required syntax for validation and will be covered in Test Setup and CI.
 2. ``test ViewHelloWorld {}`` - This should be added on a next line below the property mentioned in step 1.
 3.  ``User.firstLoginPG();``
     This goes within ViewHelloWorld {}. This macro is very widely used, and will unlock the door to portal. Note, that in order to make the test do anything, we must add one of two things: a function, and a macro. For more information on functions and macros, see the section on Anatomy of a Poshi Test.
