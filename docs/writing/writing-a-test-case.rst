@@ -29,7 +29,7 @@ Now save the file, and let’s run our test!
 
 Running the Test
 -----------------
-With Portal running on a separate console/terminal instance, open another instane of console/terminal and run the following command from portal root directory:
+With Portal running on a separate console/terminal instance, open another instance of console/terminal and run the following command from portal root directory:
 
 ``$ ant -f build-test.xml run-selenium-test -Dtest.class=HelloPoshi#ViewHelloWorld``
 
