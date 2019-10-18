@@ -54,9 +54,7 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
   :name: debugging-poshi
 
   debugging/workflow
-  debugging/reasons-for-failure
   debugging/timesavers
-  debugging/verifying-with-ci
 
 .. toctree::
   :maxdepth: 1
