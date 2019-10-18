@@ -46,7 +46,7 @@ definition {
   At this point, we can save the test and run our new AddBlogsEntry test using the command we used in the Writing a Test Case portion. If the new AddBlogsEntry test was saved in the HelloPoshi testcase file, run the test using the following command:
   ``$ ant -f build-test.xml run-selenium-test -Dtest.class=HelloPoshi#AddBlogsEntry``
 
-Now that our login macro ``(User.firstLoginPG();)``  is up in the setUp block, let’s make our ViewHelloWorld test do what fits its name.
+Now that our login macro ``User.firstLoginPG();``  is up in the setUp block, let’s make our ViewHelloWorld test do what fits its name.
 
 1. To begin, we would need to apply our path-writing skills to find locators such that we can assert parts of a portlet.
 2. Find the Title Header of the Hello World portlet, and assert the string “Hello World.”
