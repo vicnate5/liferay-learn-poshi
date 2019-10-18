@@ -40,7 +40,7 @@ definition {
       * Type ``Ctrl + Shift + F`` to open the advanced search dialog
       * Click the ``.*`` button on the left side (to use regex)
       * Find: ``Blogs.addEntry\(.*\n.*\n.*;`` We add new lines in the search to widen the line context returned in the search (so we can see all the variables)
-      * With Sublime scoped to our portalweb folder, we’ll see that, of the 124 matches, a majority of them only use the two variables.
+      * With Sublime scoped to our portalweb folder, we’ll see that, out of all the matches, a majority of them only use the two variables.
 
 .. note::
   At this point, we can save the test and run our new AddBlogsEntry test using the command we used in the Writing a Test Case portion. If the new AddBlogsEntry test was saved in the HelloPoshi testcase file, run the test using the following command:
