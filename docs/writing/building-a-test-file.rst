@@ -40,7 +40,7 @@ definition {
     );
 
   b. Add Blogs Entry
-    1. Type in ``Ctrl + p`` again, this time inputting ‘Blogs.macro’ - you’ll notice that Sublime grabs everything *including* that string
+    1. Search with ``Ctrl/CMD + p`` again, this time inputting ‘Blogs.macro’ - you’ll notice that Sublime grabs everything *including* that string
     2. There are macros for doing specific actions (of a certain kind) to Blogs, like BlogsConfiguration, and BlogsEntryComment, but if we’re not sure, we should start at the top level and work our way down:
     3. Open Blogs.macro.
     4. Notice that Blogs.macro calls other blogs-related macros, the top-most blocks all do some kind of adding, let’s use the generic addEntry block
@@ -48,7 +48,7 @@ definition {
       * entryContent
       * entryTitle
     6. Verify variable usage tendencies in Sublime
-      * Type ``Ctrl + Shift + F`` to open the advanced search dialog
+      * Type ``Ctrl/CMD + Shift + F`` to open the advanced search dialog
       * Click the ``.*`` button on the left side (to use regex)
       * Find: ``Blogs.addEntry\(.*\n.*\n.*;`` We add new lines in the search to widen the line context returned in the search (so we can see all the variables)
       * With Sublime scoped to our portalweb folder, we’ll see that, out of all the matches, a majority of them only use the two variables.
