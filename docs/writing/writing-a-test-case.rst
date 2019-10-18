@@ -14,13 +14,13 @@ Writing a Test Case
 
 At this point, your test should look like the following:
 ::
-  definition {
-    property testray.main.component.name = “Blogs"
+definition {
+	property testray.main.component.name = "Blogs";
 
-    test ViewHelloWorld {
-      User.firstLoginPG();
-    }
-  }
+	test ViewHelloWorld {
+		User.firstLoginPG();
+	}
+}
 
 .. note::
     It is good practice to save Poshi files frequently and to validate Poshi syntax early and often by running the following command from portal source root dir: ``ant -f build-test.xml run-poshi-validation``

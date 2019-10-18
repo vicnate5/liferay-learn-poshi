@@ -9,17 +9,17 @@ Let’s now add the following block of code just under the property line:
 
   At this point, your test should look like the following:
   ::
-    definition {
-      property testray.main.component.name = “Blogs"
+definition {
+  property testray.main.component.name = "Blogs";
 
-      setup {
-        User.firstLoginPG();
-      }
+  setUp {
+    User.firstLoginPG();
+  }
 
-      test ViewHelloWorld {
+  test ViewHelloWorld {
 
-      }
-    }
+  }
+}
 
 3. Let’s add a test that will add a Blog Entry. Let’s call it ``test AddBlogsEntry {}``
 4. Next, let's add macros to navigate to Blogs admin and to add a Blogs entry.
