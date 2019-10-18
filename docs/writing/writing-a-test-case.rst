@@ -23,7 +23,7 @@ At this point, your test should look like the following:
   }
 
 .. note::
-    It is good practice to save Poshi files frequently and to validate Poshi syntax early and often by running the following command from portal source root dir: ``run ant -f build-test.xml run-poshi-validation``.
+    It is good practice to save Poshi files frequently and to validate Poshi syntax early and often by running the following command from portal source root dir: ``ant -f build-test.xml run-poshi-validation``
 
 Now save the file, and let’s run our test!
 
