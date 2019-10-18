@@ -24,9 +24,20 @@ definition {
 3. Let’s add a test that will add a Blog Entry. Let’s call it ``test AddBlogsEntry {}``, replace or comment out the ``ViewHelloWorld`` test to prevent poshi validation errors since the test is missing child elements right now, we will return to this testcase later.
 4. Next, let's add macros to navigate to Blogs admin and to add a Blogs entry.
   a. Navigate to Blogs Admin
+    1. The portal user would need to use the Product Menu to navigate to the Blogs Admin portlet in Liferay
+
     .. note::
-      In Sublime, If you’ve added the portalweb folder to your project and saved it, you can press ``Ctrl + p`` to open up a quick search
-    From the quick search, start typing ‘BlogsNavigator’ until you can scroll to and open it. Most macros in here goto places when already on the Blogs Admin page, look for a macro that starts with open, we can use that.
+    In Sublime, If you’ve added the portalweb folder to your project and saved it, you can press ``Ctrl/CMD + p`` to open up a quick search
+    From the quick search, start typing ‘ProductMenu’ until you can scroll to and open it.
+
+    2. Open the ProductMenu.macro to see what macro we can use to navigate to a portlet, ``gotoPortlet`` looks like it might be the solution. And it even has a macro summary, ``Navigate to Product Menu > ${panel} > ${category} > ${portlet}``
+    3. Add the following to the new blogs test:
+    ::
+    ProductMenu.gotoPortlet(
+      category = "Content & Data",
+      panel = "Site Administration",
+      portlet = "Blogs"
+    );
 
   b. Add Blogs Entry
     1. Type in ``Ctrl + p`` again, this time inputting ‘Blogs.macro’ - you’ll notice that Sublime grabs everything *including* that string
@@ -41,6 +52,12 @@ definition {
       * Click the ``.*`` button on the left side (to use regex)
       * Find: ``Blogs.addEntry\(.*\n.*\n.*;`` We add new lines in the search to widen the line context returned in the search (so we can see all the variables)
       * With Sublime scoped to our portalweb folder, we’ll see that, out of all the matches, a majority of them only use the two variables.
+    7. Add the following to the new blogs test:
+    ::
+    Blogs.addEntry(
+      entryContent = "Blogs Content",
+      entryTitle = "Blogs Title"
+    );
 
 .. note::
   At this point, we can save the test and run our new AddBlogsEntry test using the command we used in the Writing a Test Case portion. If the new AddBlogsEntry test was saved in the HelloPoshi testcase file, run the test using the following command:
